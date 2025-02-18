@@ -5,7 +5,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000', // Cambia '*' por la URL de tu frontend para mayor seguridad
+  origin: 'https://gamers-site.netlify.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true, // Si usas cookies o autenticación
 }));
