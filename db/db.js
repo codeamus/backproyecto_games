@@ -1,12 +1,12 @@
 const { Pool } = require('pg');
 
 const pool = new Pool({
-  host: 'dpg-cuu7hf1opnds739u4260-a',
-  user: 'apigamers_user',
-  password: 'hNOaqmdW3OURiBNOV7i3gvpQROcrzJo5',
-  database: 'apigamers',
+  host: "dpg-cv12ait6l47c73er1aig-a",
+  user: "dbgamerstore",
+  password: "2frs6l8q3zu6JjVfjrxHXRuXASL7BwRl",
+  database: "apigamers",
   port: 5432,
-  allowExitOnIdle: true
+  allowExitOnIdle: true,
 });
 
 module.exports = {
